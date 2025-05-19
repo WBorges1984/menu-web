@@ -1,6 +1,10 @@
+import { Header } from "../../components/Header/Header"
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
+
 export const Dashboard =() =>{
     return(<>
-            <h1>Dashboard</h1>
+            <Header />
         </>
     )
 }
