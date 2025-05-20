@@ -1,10 +1,11 @@
+import { Box } from "@mui/material";
 import { Header } from "../../components/Header/Header"
-import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
+import BoasVindas from "../../components/BoasVindas/BoasVindas";
 
 export const Dashboard =() =>{
-    return(<>
+return(<Box>
             <Header />
-        </>
+            <BoasVindas />
+        </Box>
     )
 }

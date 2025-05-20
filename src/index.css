@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
-
+:root {
+  --background-dashboard: #9b7777;
+  --corPrimaria: #006e06;
+  --corSecundaria: #666f81;
+  --corDestaque: #ff7b00;
+}
 
 *{
   padding: 0;
