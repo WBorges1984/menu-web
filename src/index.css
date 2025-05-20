@@ -5,6 +5,9 @@
   --corPrimaria: #006e06;
   --corSecundaria: #666f81;
   --corDestaque: #ff7b00;
+  --corFontePrincipal: #ffffff;
+  --corFonteSecundaria: #858585; 
+  --corFonteDestaque: #e70808; 
 }
 
 *{

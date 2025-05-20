@@ -1,3 +1,7 @@
 .containerBoasVindas{
     background-color: var(--corSecundaria);
+    height: 40px;
+}
+.containerBoasVindas > h6{
+    color: var(--corSecundaria)
 }

@@ -1,5 +1,6 @@
 import "./boasVindas.style.css";
 
+
 export default function BoasVindas() {
   return (
     <div className="containerBoasVindas">
