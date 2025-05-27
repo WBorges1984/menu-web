@@ -1,0 +1,49 @@
+[
+    {
+        "empresa_dados":[
+            {
+            "endereço":    {
+                    "razao": "Borges açai e Sorveteria",
+                    "cnpj": 54052795000100,
+                    "ie": "isento",
+                    "logradouro": "Rua carmem de freitas salgado",
+                    "numero": 126,
+                    "complemento": "casa",
+                    "bairro": "california",
+                    "cidade": "Nova Iguaçu",
+                    "estado": "Rio de janeiro",
+                    "uf": "RJ",
+                    "sobre":"Empresa de venda de açaí e sorvetes"
+                },
+            
+                "contato":{
+                    "telefone": 21970002611,
+                    "celular": 21970002611,
+                    "email":"willian.borges@hotmail.com.br",
+                    "facebook":"",
+                    "linkedin":"",
+                    "instagram":"",
+                    "twiter": ""
+                },
+         
+                "horario":{
+                    "segunda": "08:00 as 19:00",
+                    "terca": "08:00 as 19:00",
+                    "quarta": "08:00 as 19:00",
+                    "quinta": "08:00 as 19:00",
+                    "sexta": "08:00 as 19:00",
+                    "sabado": "08:00 as 19:00",
+                    "domingo": "fechado"
+                },
+
+                "formas_pagamento":{
+                    "PIX": "PIX", 
+                    "CC":"Cartao Credito", 
+                    "CD":"Cartao Debito",
+                    "VL": "Vale Alimentação",
+                    "VR": "Vale Refeição"
+                }
+            }
+        ]
+    }
+]

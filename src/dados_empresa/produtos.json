@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "titulo": "Smartphone XPTO Pro Max",
+    "descricao": "O mais novo smartphone com câmera de 108MP, tela AMOLED de 6.7 polegadas e processador Snapdragon de última geração. Bateria de longa duração e design elegante.",
+    "preco": 4999.90,
+    "imagem": "https://exemplo.com/imagens/smartphone-xpto-pro-max.jpg",
+    "grupo": "Eletrônicos"
+  },
+  {
+    "id": 2,
+    "titulo": "Notebook UltraFino Z",
+    "descricao": "Notebook leve e potente, ideal para trabalho e estudos. Tela de 14 polegadas Full HD, SSD de 512GB, 16GB RAM e processador Intel i7.",
+    "preco": 6750.00,
+    "imagem": "https://exemplo.com/imagens/notebook-ultrafino-z.jpg",
+    "grupo": "Eletrônicos"
+  },
+  {
+    "id": 3,
+    "titulo": "Camiseta Algodão Premium",
+    "descricao": "Camiseta básica feita com 100% algodão premium, proporcionando conforto e durabilidade. Disponível em diversas cores e tamanhos.",
+    "preco": 89.90,
+    "imagem": "https://exemplo.com/imagens/camiseta-algodao-premium-azul.jpg",
+    "grupo": "Vestuário"
+  },
+  {
+    "id": 4,
+    "titulo": "Tênis Esportivo RunnerX",
+    "descricao": "Tênis de corrida com tecnologia de amortecimento avançada, solado de alta aderência e cabedal respirável. Perfeito para seus treinos diários.",
+    "preco": 349.50,
+    "imagem": "https://exemplo.com/imagens/tenis-esportivo-runnerx.jpg",
+    "grupo": "Calçados"
+  },
+  {
+    "id": 5,
+    "titulo": "Fone de Ouvido Bluetooth WaveSound",
+    "descricao": "Fone de ouvido sem fio com cancelamento de ruído ativo, bateria para até 20 horas de reprodução e qualidade de som Hi-Fi.",
+    "preco": 299.00,
+    "imagem": "https://exemplo.com/imagens/fone-wavesound.jpg",
+    "grupo": "Acessórios Eletrônicos"
+  },
+  {
+    "id": 6,
+    "titulo": "Livro: As Crônicas de Nárnia - Volume Único",
+    "descricao": "A obra completa de C.S. Lewis em um único volume. Uma jornada fantástica por um mundo mágico.",
+    "preco": 75.00,
+    "imagem": "https://exemplo.com/imagens/livro-cronicas-narnia.jpg",
+    "grupo": "Livros"
+  },
+  {
+    "id": 7,
+    "titulo": "Cafeteira Expresso Automática",
+    "descricao": "Prepare cafés deliciosos com o toque de um botão. Múltiplas opções de bebidas e sistema de limpeza fácil.",
+    "preco": 899.99,
+    "imagem": "https://exemplo.com/imagens/cafeteira-expresso.jpg",
+    "grupo": "Eletrodomésticos"
+  }
+]
