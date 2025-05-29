@@ -1,6 +1,11 @@
 import RazaoSocial from "../../components/Empresa/RazaoSocial/RazaoSocial";
 import SubTitle from "../../components/Empresa/subTitle/SubTitle";
 import { Header } from "../../components/Header/Header";
+import "./dashboard.style.css";
+import Fidelidade from "../../components/Fidelidade/Fidelidade";
+import { IoSearchOutline } from "react-icons/io5";
+import { FaRegQuestionCircle } from "react-icons/fa";
+import ItensPromocao from "../../components/ItensPromocao/ItensPromocao";
 
 export const Dashboard = () => {
   return (
@@ -8,27 +13,47 @@ export const Dashboard = () => {
       <Header />
       <div className="bodyDashboard">
         <div className="conteudo">
-            <div className="topDashboard">
-                <RazaoSocial />
-                <SubTitle />
+          <div className="topDashboard">
+            <RazaoSocial />
+            <SubTitle />
+            <div className="consultaCategorias">
+              <select
+                style={{ width: 250 }}
+                className="form-select"
+                aria-label="Default select example"
+              >
+                <option value={"Lista de Categorias"}>Lista de Categorias</option>
+                <option value="1">Bebida</option>
+                <option value="2">Roupas</option>
+                <option value="3">Food</option>
+              </select>
+              <div className="input">
+                <IoSearchOutline />
+                <input type="text" placeholder="Busca de produtos" />
+              </div>
             </div>
+          </div>
         </div>
         <div>
-            <div>
-                <div class="flex items-center space-x-3">
-                    <div class="flex-shrink-0">
-                        <div class="p-2 rounded-full bg-primary">
-                        <img src="" alt="Ícone de prêmio de fidelidade" width="20" height="20" />
-                        </div>
-                    </div>
-                    <span class="text-sm font-medium text-gray-700">Programa de fidelidade</span>
-                </div>
-                <div class="flex flex-col flex-1 space-y-2">
-                    <span class="text-gray-700 text-msm">A cada <span class="font-medium">R$ 1,00</span> em compras você ganha <span class="font-medium">1 ponto</span> que pode ser trocado por prêmios.</span><span class="text-gray-700 text-msm">Os novos clientes ganham automaticamente <span class="font-medium">10 pontos.</span></span></div></div>
-        <aside>
-
-        </aside>
+          <div
+            className="fidelidade"
+            style={{
+              marginTop: 40,
+              marginRight: 80,
+              padding: 10,
+              backgroundColor: "white",
+              borderRadius: 10,
+            }}
+          >
+            <Fidelidade />
+          </div>
         </div>
+        <div className="itens">
+            <ItensPromocao />
+        </div>
+        <aside> 
+            <FaRegQuestionCircle />
+        </aside>
       </div>
     </div>
   );

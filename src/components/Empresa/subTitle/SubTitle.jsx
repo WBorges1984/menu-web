@@ -1,10 +1,10 @@
-import React from 'react'
+import { MdLocationOn } from "react-icons/md";
 
 export default function SubTitle() {
   return (
-    <div>
-        <span>Apenas agendamento • Abrimos amanhã às 18h00</span>
-        <h6> • Nova Iguaçu - RJ Mais informações</h6>
+    <div className='containerSubTitle' style={{display: 'flex', alignItems: 'center', gap: 10}}>
+        <span style={{color: 'orangered'}}>Apenas agendamento • Abrimos amanhã às 18h00</span>
+        <span> • Nova Iguaçu - RJ  <b>{"  "}Mais informações</b></span>
     </div>
   )
 }

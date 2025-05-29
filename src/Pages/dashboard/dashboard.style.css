@@ -1,0 +1,32 @@
+.bodyDashboard{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.topDashboard{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.consultaCategorias{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.input{
+    background-color: #fff;
+    width: 35%;
+    margin-right: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input input{
+    width: 100%;
+    outline : none;
+}
