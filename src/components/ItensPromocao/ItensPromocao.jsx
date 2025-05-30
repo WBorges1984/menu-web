@@ -10,15 +10,13 @@ export default function ItensPromocao() {
   }, []); 
   return (
     <div>
-        <p style={{marginLeft: 80, fontSize: 24, fontWeight: 700, fontFamily: Rubika}}>PROMOÇÃO ESCARELLA</p>
+        <p style={{marginLeft: 80, fontSize: 24, fontWeight: 700, fontFamily: "Rubika"}}>PROMOÇÃO ESCARELLA</p>
       {prods.map((item) => {
         // Verifica se 'item.promocao' é estritamente igual ao booleano true
         if (item.promocao === true) {
           return (
             <div key={item.id} style={{marginLeft: 80}}>
-              <span>Título: </span>
               <p>{item.titulo}</p>
-              <span>Descrição: </span> {/* Correção de "Titulo" para "Descrição" */}
               <p>{item.descricao}</p>
             </div>
           );

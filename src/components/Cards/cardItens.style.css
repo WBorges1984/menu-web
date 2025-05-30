@@ -1,0 +1,7 @@
+.containerCardItens{
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    width: 50%;
+    margin-left: 80px;
+}

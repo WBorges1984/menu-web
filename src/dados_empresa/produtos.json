@@ -6,7 +6,7 @@
     "preco": 4999.90,
     "imagem": "https://exemplo.com/imagens/smartphone-xpto-pro-max.jpg",
     "grupo": "Eletrônicos",
-    "promocao": false
+    "promocao": true
   },
   {
     "id": 2,

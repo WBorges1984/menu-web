@@ -6,6 +6,7 @@ import Fidelidade from "../../components/Fidelidade/Fidelidade";
 import { IoSearchOutline } from "react-icons/io5";
 import { FaRegQuestionCircle } from "react-icons/fa";
 import ItensPromocao from "../../components/ItensPromocao/ItensPromocao";
+import CardItens from "../../components/Cards/CardItens";
 
 export const Dashboard = () => {
   return (
@@ -54,6 +55,10 @@ export const Dashboard = () => {
         <aside> 
             <FaRegQuestionCircle />
         </aside>
+            <CardItens 
+              titulo={"COMBO ESCARELLA"} 
+              descricao={"Pizza 35cm calabresa  + Pizza 25cm confete + guaraná 1,5 lt "}
+              preco={49.99}/>
       </div>
     </div>
   );
